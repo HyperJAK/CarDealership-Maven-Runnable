@@ -72,9 +72,9 @@ public class InitConnection {
 		alert2.setHeaderText("You have been succesfully connected to the Database: " + DB_NAME);
 
 		LoginLogout.loggedIn = true;
-		if (DBOptionsGui.rememberMe.isSelected()) {
+		/*if (DBOptionsGui.rememberMe.isSelected()) {
 			LoginLogout.saveCredentials(USERNAME, PASS, PORT, DB_NAME);
-		}
+		}*/
 
 		alert2.showAndWait();
 
