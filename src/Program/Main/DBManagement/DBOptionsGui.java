@@ -17,7 +17,7 @@ import javafx.stage.Stage;
 
 public class DBOptionsGui implements FilePaths {
 
-	public static final CheckBox rememberMe = new CheckBox("Remember me");
+	//public static final CheckBox rememberMe = new CheckBox("Remember me");
 	private static final GridPane grid = new GridPane();
 	// // The elements in the containers // //
 	private static final BorderPane border = new BorderPane();
@@ -145,11 +145,11 @@ public class DBOptionsGui implements FilePaths {
 		grid.add(port_field, 1, 4);
 		grid.add(dBNames_field, 1, 5);
 
-		grid.add(rememberMe, 0, 6);
+		//grid.add(rememberMe, 0, 6);
 		grid.add(save_btn, 1, 6);
 
 		grid.setHalignment(save_btn, HPos.RIGHT);
-		grid.setHalignment(rememberMe, HPos.CENTER);
+		//grid.setHalignment(rememberMe, HPos.CENTER);
 
 		grid.setVgap(20);
 		grid.setPadding(new Insets(20));
