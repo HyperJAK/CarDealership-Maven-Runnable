@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CarDealerShip:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CarDealerShip_jar</output-path>
+    <root id="archive" name="CarDealerShip.jar">
+      <element id="module-output" name="CarDealerShip" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../../Program Files/Java/mysql-connector-j-8.0.33.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../../Program Files/Java/javafx-sdk-18.0.1/lib/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../../Program Files/Java/javafx-sdk-18.0.1/lib/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../../Program Files/Java/javafx-sdk-18.0.1/lib/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../../Program Files/Java/javafx-sdk-18.0.1/lib/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../../Program Files/Java/javafx-sdk-18.0.1/lib/javafx.graphics.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../../Program Files/Java/javafx-sdk-18.0.1/lib/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../../Program Files/Java/javafx-sdk-18.0.1/lib/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../../Program Files/Java/javafx-sdk-18.0.1/lib/javafx.web.jar" path-in-jar="/" />
+      <element id="library" level="module" name="mySQL-Connector" module-name="CarDealerShip" />
+    </root>
+  </artifact>
+</component>

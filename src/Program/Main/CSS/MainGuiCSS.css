@@ -1,0 +1,55 @@
+#cars_button_main, #clients_button_main, #employees_button_main {
+    -fx-background-color: #0b2d39;
+    -fx-background-radius: 10px;
+    -fx-min-width: 300;
+    -fx-min-height: 80;
+    -fx-font-size: 24;
+    -fx-font-weight: bold;
+}
+
+#cars_button_main:hover, #clients_button_main:hover, #employees_button_main:hover {
+    -fx-background-color: #1a6985;
+    -fx-cursor: hand;
+}
+
+#profilePic_button_main {
+    /*-fx-background-color:#FFD700;*/
+    -fx-background-size: cover;
+    -fx-min-width: 90;
+    -fx-min-height: 90;
+
+}
+
+
+#mainMenuBorderPane {
+    /*-fx-background-image:url("https://i.ibb.co/tJjrvd3/Main-Menu.png");*/
+
+
+    -fx-background-image: url("../Resources/Images/Main_Menu.png");
+    /*-fx-color:red;*/
+    -fx-background-size: cover;
+
+
+}
+
+#audio_button_main, #path_button_main {
+    -fx-background-color: black;
+    -fx-background-radius: 3px;
+    -fx-min-width: 35px;
+    -fx-min-height: 35px;
+}
+
+#audio_button_main:hover, #path_button_main:hover, #media-hbox2:hover {
+    -fx-cursor: hand;
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-scale-z: 1.1;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.8), 10, 0, 0, 0);
+}
+
+#media-hbox2 {
+    -fx-background-color: #000000;
+    -fx-min-width: 70px;
+    -fx-min-height: 30px;
+    -fx-background-radius: 10px;
+}

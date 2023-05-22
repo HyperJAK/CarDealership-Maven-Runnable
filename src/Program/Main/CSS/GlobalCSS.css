@@ -1,0 +1,135 @@
+#optionsLeft_box {
+    /*Did the .. thing to go back 1 folder because by default it takes path of where CSS is stored */
+    /*This might break in an exe app  */
+    -fx-background-image: url("../Resources/Images/ProgFinal-Color-darker.png");
+    -fx-background-size: cover;
+}
+
+#centerBorder_STACK {
+    -fx-background-image: url("../Resources/Images/Prog-Final-Background.png");
+    -fx-background-size: cover;
+}
+
+#firstViewedScene-rec-id {
+    -fx-fill: rgba(255, 255, 255, 0.3);
+}
+
+#topBar_box {
+    -fx-background-color: #040f13;
+}
+
+#add_car_button, #add_emp_button, #add_clt_button {
+    -fx-border-radius: 1000 0 0 0;
+    -fx-background-radius: 1000 0 0 0;
+    -fx-background-color: #040f13;
+    -fx-min-width: 180;
+    -fx-min-height: 70;
+}
+
+#display_cars_button, #car_options_button, #remove_car_button,
+#display_emps_button, #emp_options_button, #remove_emp_button,
+#display_clts_button, #clt_options_button, #remove_clts_button {
+    -fx-background-color: #040f13;
+    -fx-min-width: 180;
+    -fx-min-height: 70;
+}
+
+#go_back_button_car, #go_back_button_emp, #go_back_button_clt {
+    -fx-border-radius: 0 0 0 1000;
+    -fx-background-radius: 0 0 0 1000;
+    -fx-background-color: #040f13;
+    -fx-text-fill: #FFFFFF;
+    -fx-min-width: 180;
+    -fx-min-height: 70;
+}
+
+
+#add_car_button:hover, #display_cars_button:hover, #car_options_button:hover, #remove_car_button:hover, #go_back_button_car:hover,
+#add_emp_button:hover, #display_emps_button:hover, #emp_options_button:hover, #remove_emp_button:hover, #go_back_button_emp:hover,
+#add_clt_button:hover, #display_clts_button:hover, #clt_options_button:hover, #remove_clts_button:hover, #go_back_button_clt:hover {
+    -fx-background-color: #1a6985;
+    -fx-cursor: hand;
+}
+
+
+#profilePic_button {
+    /*-fx-background-color:#FFD700;*/
+    -fx-background-size: cover;
+    -fx-min-width: 85;
+    -fx-min-height: 85;
+}
+
+#add_car_button:pressed, #display_cars_button:pressed, #car_options_button:pressed, #remove_car_button:pressed, #go_back_button_car:pressed,
+#add_emp_button:pressed, #display_emps_button:pressed, #emp_options_button:pressed, #remove_emp_button:pressed, #go_back_button_emp:pressed,
+#add_clt_button:pressed, #display_clts_button:pressed, #clt_options_button:pressed, #remove_clts_button:pressed, #go_back_button_clt:pressed {
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #1a6985;
+    -fx-font-size: 20;
+}
+
+/*This is the title on top indicating which gui we are in */
+#sceneTitleID {
+    -fx-font-family: "Courier New";
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 24;
+    -fx-font-weight: bold;
+}
+
+
+/*Here is code for tables in all guis */
+/*Removed white background color to show the blue selection */
+#emp-display-table .table-cell {
+    -fx-alignment: CENTER;
+    -fx-text-fill: black;
+
+}
+
+.table-view {
+    -fx-background-color: #040f13;
+    -fx-background-radius: 14 14 0 0;
+
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #040f13;
+    -fx-background-radius: 14;
+    -fx-background-insets: 0 0 10 0;
+
+
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-size: 50px;
+    -fx-border-width: 0 0 10 0;
+    -fx-background-color: transparent;
+
+}
+
+.table-view .table-column {
+    -fx-alignment: CENTER;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+}
+
+.table-cell {
+    -fx-border-color: #000000; /* similar to the default color */
+    -fx-border-width: 0.5; /* similar to the default width */
+}
+
+.table-view .scroll-bar * {
+    -fx-min-width: 0;
+    -fx-pref-width: 0;
+    -fx-max-width: 0;
+
+    -fx-min-height: 0;
+    -fx-pref-height: 0;
+    -fx-max-height: 0;
+}
+
+
+.table-row-cell:selected .text {
+    -fx-fill: red;
+}
+

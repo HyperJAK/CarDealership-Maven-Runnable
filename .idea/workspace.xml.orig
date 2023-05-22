@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="29bcac14-c3d8-4e4b-b3ba-6d2faac56569" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarDealerShip.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CarDealerShip.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program/Main/Guis/CarsGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/Main/Guis/CarsGui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program/Main/Guis/ClientGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/Main/Guis/ClientGui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program/Main/Guis/EmployeeGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/Main/Guis/EmployeeGui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program/Main/Guis/Gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/Main/Guis/Gui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program/Main/Guis/RightClickGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/Main/Guis/RightClickGui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program/Main/Main.java" afterDir="false" />
+    </list>
+=======
+    <list default="true" id="29bcac14-c3d8-4e4b-b3ba-6d2faac56569" name="Changes" comment="" />
+>>>>>>> LatestV1.15
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IcvR5CIcfeFAadAncXQH4bpZZD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/JAK/OneDrive/Desktop/Prog Uni/Semester 3 (Prog 3)/Eclipse Projects/CarDealership(Prog2)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Program.Main.Main" />
+      <module name="CarDealerShip" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Program.Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29bcac14-c3d8-4e4b-b3ba-6d2faac56569" name="Changes" comment="" />
+      <created>1670493866142</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670493866142</updated>
+      <workItem from="1670493870202" duration="216000" />
+      <workItem from="1670494110712" duration="371000" />
+      <workItem from="1670495201244" duration="649000" />
+      <workItem from="1670514301021" duration="10739000" />
+      <workItem from="1670616636584" duration="2191000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

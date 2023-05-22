@@ -1,0 +1,33 @@
+#emp-last-name-textfield, #emp-email-textfield, #emp-first-name-textfield, #emp-salary-textfield, #emp-address-textfield, #emp-telephone-textfield {
+    -fx-min-width: 80;
+    -fx-min-height: 40;
+    -fx-background-color: #0b2d39;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+#emp-age-textfield {
+    -fx-max-width: 80;
+    -fx-min-height: 40;
+    -fx-background-color: #0b2d39;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+#emp-date-of-birth-field, #emp-gender-combo, #emp-position-combo {
+    -fx-max-width: 120;
+    -fx-min-height: 40;
+    -fx-background-color: #0b2d39;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.combo-box > .list-cell {
+    -fx-text-fill: white;
+}
+
+/*This is the button / buttons to save cars  / clients / employees */
+#save-employee-button {
+    -fx-font-size: 20;
+    -fx-background-color: #0b2d39;
+}

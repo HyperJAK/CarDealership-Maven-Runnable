@@ -1,0 +1,33 @@
+#client-last-name-textfield, #client-address-textfield, #client-first-name-textfield, #client-email-textfield, #client-telephone-textfield {
+    -fx-min-width: 80;
+    -fx-min-height: 40;
+    -fx-background-color: #0b2d39;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+#client-age-textfield {
+    -fx-max-width: 80;
+    -fx-min-height: 40;
+    -fx-background-color: #0b2d39;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+#client-gender-combo, #client-date-of-birth-field {
+    -fx-min-width: 120;
+    -fx-min-height: 40;
+    -fx-background-color: #0b2d39;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.combo-box > .list-cell {
+    -fx-text-fill: white;
+}
+
+/*This is the button / buttons to save cars  / clients / employees */
+#save-client-button {
+    -fx-font-size: 20;
+    -fx-background-color: #0b2d39;
+}

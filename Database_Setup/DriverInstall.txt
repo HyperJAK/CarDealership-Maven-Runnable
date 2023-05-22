@@ -1,0 +1,3 @@
+https://dev.mysql.com/downloads/windows/installer/8.0.html
+
+Download the driver from here (For windows-java) or you can choose any other platform or language

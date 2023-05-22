@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="net.sf.mgp.javafx.properties" type="repository">
+    <properties maven-id="net.sf.mgp:javafx-properties:1.0.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/sf/mgp/javafx-properties/1.0.0/javafx-properties-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

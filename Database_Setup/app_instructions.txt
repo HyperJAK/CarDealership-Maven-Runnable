@@ -1,0 +1,2 @@
+Make sure to use the same jdk in ide and windows, meaning make sure its correctly set as path of jdk in JAVA_HOME in env variables
+and in path of system variables set the bin file inside jdk
