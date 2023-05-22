@@ -23,6 +23,7 @@ import javafx.stage.WindowEvent;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -258,13 +259,14 @@ public class CarsGui extends Gui {
 			}
 			colorsReader.close();
 		} catch (FileNotFoundException e) {
+
 			try {
-				File colors = new File("TextFiles/colors.txt");
-				Scanner colorsReader = new Scanner(colors);
-				while (colorsReader.hasNext()) {
-					vehicleColors_List.add(colorsReader.nextLine());
-				}
-				colorsReader.close();
+				List<String> colors = new ArrayList<>(Arrays.asList(
+						"White", "Black", "Gray", "Silver", "Blue", "Red", "Brown",
+						"Green", "Orange", "Beige", "Purple", "Gold", "Yellow"
+				));
+
+				vehicleColors_List.addAll(colors);
 			} catch (Exception ignored) {
 
 			}

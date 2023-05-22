@@ -22,6 +22,7 @@ import javafx.scene.paint.Color;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -210,11 +211,13 @@ public class EmployeeGui extends Gui {
 			}
 		} catch (FileNotFoundException e) {
 			try {
-				File position = new File("TextFiles/positions.txt");
-				Scanner positionReader = new Scanner(position);
-				while (positionReader.hasNext()) {
-					empPositions_List.add(positionReader.nextLine());
-				}
+				List<String> jobTitles = new ArrayList<>(Arrays.asList(
+						"Sales Manager", "Finance Manager", "Customer Service Representative",
+						"Car Detailer", "Lot Manager", "Property Maintenance", "HR Consultant",
+						"Service Technicians", "Parts Technicians", "Sales Person"
+				));
+
+				empPositions_List.addAll(jobTitles);
 			} catch (Exception ignored) {
 			}
 
