@@ -1,5 +1,6 @@
-package Program.Main.Resources.Audio;
+package Program.Main.CustomClass;
 
+import Program.Main.App;
 import Program.Main.CustomClass.CButton;
 import Program.Main.CustomClass.CText;
 import Program.Main.CustomClass.CTextField;
